@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+*::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  height: 70px;
+}
+
+
+.btnlogin {
+  margin-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.banner1 {
+  background: url("/img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-position-y: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.banner2 {
+  background: url("/img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.banner3 {
+  background: url("/img/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.btn {
+  border-radius:30px;
+}
+
+h1 {
+  padding-bottom: 8px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.card {
+  height: 420px;
+}
+
+.cardimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.adam {
+  background: url("/img/adam.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  background-position:center;
+}
+
+.time {
+  background-color: #ffc517;
+  color: white;
+  font-weight:bolder;
+}
+
+.clip-circle {
+  display: flex;
+  border-radius: 10px;
+  max-height: 100%;
+  background-size: cover;
+}
+
+.social-icon {
+  color: #fff;
+  width: 70px;
+}
+
+.fa-fb {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+  border-radius: 20px;
+}
+.fa-fb:hover {
+  background-color: #3d5b99;
+}
+
+.fa-ig {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+  border-radius: 20px;
+}
+.fa-ig:hover {
+  background-color: #c13584;
+}
+  .fa-ig {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border-radius: 20px;
+  }
+  .fa-ig:hover {
+    background-color: #e1306c;
+  }
+  .fa-line {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border-radius: 20px;
+  }
+  .fa-line:hover {
+    background-color: #00c300;
+  }
+  .fa-mail {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border-radius: 20px;
+  }
+  .fa-mail:hover {
+    background-color: #ea4335;
+  }

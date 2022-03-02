@@ -1,0 +1,110 @@
+/* 課程資料*/
+.caption {
+    background-color: #E8DED9;
+}
+@media (max-width: 1000px) {
+    .title{
+        text-align:left;
+    }
+}
+.course-info{
+    padding-left: 6%; 
+    padding-right: 0%;
+}
+@media (max-width: 1000px) {
+    .course-info{
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+}
+/* 課程圖片裁切大小*/
+.zoomImage{
+    width:90%;
+    height:0;
+    padding-bottom: 67%;
+    margin-left: 5%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+/* 吉祥物*/
+@media (max-width: 1000px) {
+    .fixed-mascot{
+        display: none;
+    }
+}
+.fixed-mascot {
+    z-index: 2;
+    position: fixed;
+    width: 150px;
+    right: 15px;
+    bottom: 15px;
+}
+.hover-mascot {
+    display: none;
+}
+.fixed-mascot:hover .hover-mascot {
+    display: block;
+}
+.fixed-mascot:hover .mascot {
+    display: none;
+}
+/* 嵌入式程式碼*/
+.iframe-container {
+    overflow: hidden;
+    padding-top: 75%;
+    position: relative;
+}
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* 4x3 縱橫比 */
+.iframe-container-4x3 {
+    padding-top: 75%;
+}
+/* 常見問題*/
+.qa {
+    background-color: #fff;
+    border-color: #FFC107;
+    border-radius: 15px;
+    color: #000;
+}
+.qa:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+    border-radius: 15px;
+}
+/*影片*/
+.embed-container { 
+    margin-top: 25px;
+    margin-left: 25%;
+    position: relative; 
+    padding-bottom: 28.125%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 50%; 
+} 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+}
+@media (max-width: 1000px) {
+    .embed-container { 
+        margin-left: 0%;
+        padding-bottom: 56.25%; 
+        max-width: 100%; 
+    } 
+}

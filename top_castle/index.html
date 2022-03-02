@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <title>top-castle</title>
+</head>
+
+<body>
+  <div class="header container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo" src="img/blogo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" dcollapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <!--href內修改成首頁連結-->
+              <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <!--href內修改成課程列表連結-->
+              <a class="nav-link" href="course-list.html">課程列表</a>
+            </li>
+            <li class="nav-item">
+              <!--href內修改成程式學堂連結-->
+              <a class="nav-link" href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687"
+                target="_blank">程式學堂</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!--href內修改成線上商城連結-->
+              <a class="nav-link dropdown-toggle" href="https://thetopcastle.cashier.ecpay.com.tw/" target="_blank"
+                id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                線上商城
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <!--href內修改成課程及商品連結-->
+                <li><a class="dropdown-item" href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687"
+                    target="_blank">課程</a></li>
+                <li><a class="dropdown-item" href="https://thetopcastle.cashier.ecpay.com.tw/" target="_blank">商品</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <!--href內修改成合作洽談連結-->
+              <a class="nav-link" href="#" target="_blank">合作洽談</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="banner1">
+          <rect width="100%" height="100%"></rect>
+        </div>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 style="font-size: 2rem;">激勵孩子愛動腦<br>
+              科技學習在程堡</h1>
+            <p><a class="btn btn-lg btn-primary"
+                href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687" target="_blank">瞭解更多</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="banner2">
+          <rect width="100%" height="100%"></rect>
+        </div>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 style="font-size: 3rem;">2022冬令營</h1>
+            <p>科技飛速成長、未來正在快速改變，孩子學習的知識還停留在原點嗎？加入程堡，讓我們共創孩子的精彩未來</p>
+            <a href="https://thetopcastle.cashier.ecpay.com.tw/" target="_blank">
+              <button class="btn btn-lg btn-warning">立即報名</button>
+            </a>
+            <a href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687" target="_blank">
+              <button class="btn btn-outline-light" href="">課程資訊</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="banner3">
+          <rect width="100%" height="100%"></rect>
+        </div>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>激發孩子們的想像力與創造力</h1>
+            <p><a class="btn btn-lg btn-primary"
+                href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687" target="_blank">瞭解更多</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="border-bottom px-4 pt-5 pb-5 text-center">
+    <h1 class="display-4 fw-bold">"Hello world"</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">「Hello World」標誌著程式的啟動，更代表著人類與電腦之間，跨越生物與非生物的對話正式展開，讓我們一起用程式，構築孩子們未來的堡壘！</p>
+    </div>
+  </div>
+  <div class="container col-xxl-8 px-3 py-3">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/img/DSC01045.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">當科技遇上教育</h1>
+        <h2 class="display-5 fw-bold lh-1 mb-3">When technology meets education!</h2>
+        <p class="lead">你知道嗎?<br>人類用40年不到的光景，從黑金剛邁向Iphone<br>你知道嗎?<br>早在2016年，台灣的手機普及率已突破100%
+          <br>然而你知道嗎?<br>如今的教育卻停滯在百年前，工業革命所訂下的制度中!<br>
+          <span style="color: rgb(255, 136, 0);">在現今與產業嚴重脫節的教育制度下，孕育未來人才是程堡的使命與任務!</span>
+        </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">史帝夫．賈伯斯</h3>
+            <div class="mb-1 text-muted">Steve Jobs</div>
+            <p class="card-text mb-auto">＂每個人都應該學習如何寫電腦程式，因為它教會你如何思考。＂</p>
+          </div>
+          <div class="col-auto d-lg-block">
+            <img src="img/jobs.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">比爾．蓋茲</h3>
+            <div class="mb-1 text-muted">Bill Gates</div>
+            <p class="mb-auto">＂程式教育是每個學生都應該學習的21世紀基本技能。＂</p>
+          </div>
+          <div class="col-auto d-lg-block">
+            <img src="img/gates.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-bottom px-4 pt-5 pb-5 text-center" style="background-color: #ffc517;">
+    <div class="col-lg-6 mx-auto">
+      <h2> ＂一場科技教育的角力戰爭已悄然升起，你的孩子能在未來的競爭中贏的出彩嗎？＂</h2>
+    </div>
+  </div>
+  <div class="adam">
+    <div class="px-4 pt-5 pb-5 text-center">
+      <h1 class="display-4 fw-bold">機器人V.S.人類
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">成為未來"被需要"的人才</p>
+        <a href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687" target="_blank">
+          <button type="button" class="btn btn-outline-dark">瞭解更多</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container col-xxl-8 px-3 py-3 ">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-md-8">
+        <img src="/img/DSC00779.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-md-4">
+        <h1 class="display-5 fw-bold lh-1 mb-3">關於程堡</h1>
+        <p class="lead">程堡自成立以來，致力於研發培育未來人才之程式科技課程、教材，是國內唯一教、研並重同時與高等教育界攜手合作之團隊。動手解決問題、運算思維、程式邏輯等與科技發展息息相關之能力</p>
+        <a href="https://sugar-fiber-e7a.notion.site/68a66824652640ef9f584ac474404687" target="_blank">
+          <button type="button" class="btn btn-outline-success">瞭解更多</button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <div class="border-bottom px-4 pt-5 pb-5 text-center" style="background-color: #e8ded9;">
+    <div class="col-lg-6 mx-auto pb-3">
+      <h2>科技新知｜快樂學習｜迎向未來</h2>
+      <p>透過學習了解世界，是最幸福的事</p>
+    </div>
+    <div class="container">
+      <div class=" row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+        <div class="col">
+          <div class="card shadow">
+            <img class="cardimg" src="/img/1.jpg" alt="">
+            <div class="card-body">
+              <h2>自我表達力</h2>
+              <p class="card-text">語言是溝通媒介，學習程式語言/電腦溝通過程中鍛鍊邏輯思考力、溝通表達力!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="cardimg" src="/img/2.jpg" alt="">
+            <div class="card-body">
+              <h2>啟發式學習</h2>
+              <p class="card-text">透過引發式教育，提升孩子解決問題能力，同時激發學習興趣，訓練自主學習的能力</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="cardimg" src="/img/3.jpg" alt="">
+            <div class="card-body">
+              <h2>階段式設計</h2>
+              <p class="card-text">培養運算思維<br>1.拆解問題<br>2.找出規律<br>3.歸納原則<br>4.設計演算法</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="cardimg" src="/img/4.jpg" alt="">
+            <div class="card-body">
+              <h2>多元化教材</h2>
+              <p class="card-text">透過不同面向/題材的教案設計，引領孩子豐富視野，帶領孩子共同成長!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container col-xxl-8 px-3 py-3">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-6 col-md-6 pt-5">
+        <img src="/img/praise.svg" class="d-block mx-lg-auto img-fluid" width="500" height="500" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <img src="/img/feedback.svg" class="d-block mx-lg-auto img-fluid" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <div class="row border-bottom px-4 pt-5 pb-5 text-center time">
+    <div class="col-md-3">
+      <h1 style="font-size: 5rem; font-weight: bolder;">16</h1>
+      <p style="font-size: 2rem; color: gray;">得獎次數</p>
+    </div>
+    <div class="col-md-3">
+      <h1 style="font-size: 5rem; font-weight: bolder;">700</h1>
+      <p style="font-size: 2rem; color: gray;">公益授課</p>
+    </div>
+    <div class="col-md-3">
+      <h1 style="font-size: 5rem; font-weight: bolder;">37</h1>
+      <p style="font-size: 2rem; color: gray;">學生人次</p>
+    </div>
+    <div class="col-md-3">
+      <h1 style="font-size: 5rem; font-weight: bolder;">40</h1>
+      <p style="font-size: 2rem; color: gray;">課程好評</p>
+    </div>
+  </div>
+  <div class="container col-xxl-8 px-3 py-3 ">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border-bottom">
+      <div class="col-md-4">
+        <h1 class="display-5 fw-bold lh-1 mb-3">洪耀正　教授</h1>
+        <p class="lead">逢甲大學物理教學研究中心執行與管控本計畫進度、科普課程 規劃與調整、教師社群與志工團隊 培訓、整合與串聯相關資源、本計 畫相關問題的解決。</p>
+        <a href="https://www.openedu.tw/course.jsp?id=1264">
+          <button type="button" class="btn btn-outline-success">瞭解更多</button>
+        </a>
+      </div>
+      <div class="col-10 col-sm-8 col-md-8">
+        <img src="/img/professor.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="px-4 pt-5 pb-5 text-center">
+      <h1 class="display-4 fw-bold" style="font-size: 4rem;"><img style="height:50px;" src="img/bulb.svg">最富教學創意講師群<img
+          style="height:50px;" src="img/bulb.svg"></h1>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto d-lg-block align-self-center ps-4">
+            <img class="clip-circle" src="img/teacher1.jpg">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">冠杰 老師</h3>
+            <h3 class="mb-0"></h3>
+            <div class="mb-1" style="font-size: 1.2rem; color:rgb(231, 127, 0);">用程式打開對新世界科技的全新認知</div>
+
+            <div class="mb-1 text-muted">經歷</div>
+            <p class="mb-auto">Google認證AI講師<br>App inventor2總編輯<br>教學特色<br>邏輯分析、調理推斷，建築孩子的思辨能力。</p>
+            <div>
+              <a href="" target="_blank">
+                <button type="button" class="btn btn-warning">課程試聽</button>
+              </a>
+              <a href="https://lin.ee/q24nvY6" target="_blank">
+                <button type="button" class="btn btn-outline-dark">預約上課</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto d-lg-block align-self-center ps-4">
+            <img class="clip-circle" src="img/teacher2.jpg">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">瑄瑄 老師</h3>
+            <div class="mb-1" style="font-size: 1.2rem; color:rgb(231, 127, 0);">最浪漫的事，就是看見孩子對於知識的渴望</div>
+            <div class="mb-1 text-muted">經歷</div>
+            <p class="mb-auto">曾任國中、小資訊科技老師<br>App程式設計大賽優勝<br>教學特色<br>透過遊戲進行教學，情境式帶入知識學習。</p>
+            <div>
+              <a href="https://youtu.be/R0KG4BupS7g" target="_blank">
+                <button type="button" class="btn btn-warning">課程試聽</button>
+              </a>
+              <a href="https://lin.ee/q24nvY6" target="_blank">
+                <button type="button" class="btn btn-outline-dark">預約上課</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto d-lg-block align-self-center ps-4">
+            <img class="clip-circle" src="img/teacher3.jpg">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">阿修 老師</h3>
+            <h3 class="mb-0"></h3>
+            <div class="mb-1" style="font-size: 1.2rem; color:rgb(231, 127, 0);">體驗軟、硬體整合的魅力</div>
+
+            <div class="mb-1 text-muted">經歷</div>
+            <p class="mb-auto">高中社團特聘指導老師<br>機器人大賽優勝<br>教學特色<br>軟體、硬體整合式教學，讓學生透過不同面向觸及科技領域。</p>
+            <div>
+              <a href="https://www.youtube.com/watch?v=KwtZfzVuVyw" target="_blank">
+                <button type="button" class="btn btn-warning">課程試聽</button>
+              </a>
+              <a href="https://lin.ee/q24nvY6" target="_blank">
+                <button type="button" class="btn btn-outline-dark">預約上課</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto d-lg-block align-self-center ps-4">
+            <img class="clip-circle" src="img/teacher4.jpg">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">昱錩 老師</h3>
+            <div class="mb-1" style="font-size: 1.2rem; color:rgb(231, 127, 0);">未來的世界，我們共同定義</div>
+            <div class="mb-1 text-muted">經歷</div>
+            <p class="mb-auto">清華大學 光電研究所碩士<br>App inventor2共同作者<br>教學特色<br>互動式教學，讓孩子不只單向的接受知識，而是透過問答刺激大腦思考。</p>
+            <div>
+              <a href="" target="_blank">
+                <button type="button" class="btn btn-warning">課程試聽</button>
+              </a>
+              <a href="https://lin.ee/q24nvY6" target="_blank">
+                <button type="button" class="btn btn-outline-dark">預約上課</button>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row border-bottom px-4 pt-5 pb-5 text-center time">
+    <div class="">
+      <h1 style="font-size: 5rem; font-weight: bolder; text-shadow: rgb(97, 60, 0) 0.08em 0.08em 0.2em;">2022冬令營COMING
+        SOON</h1>
+      <p style="font-size: 2rem; color: rgb(164, 0, 0);">立即取得專屬優惠碼推薦親朋好友，還可獎金累積無上限！</p>
+      <div class="container">
+        <div class="row input-group">
+          <div class="col-sm-4 pb-3">
+            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+          </div>
+          <div class="col-sm-4 pb-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+          </div>
+          <div class="col-sm-4 pb-3">
+            <button class="btn btn-dark input-group-text d-flex justify-content-start" id="basic-addon2">獲得優惠代碼</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="" style="background-color: #333333; color: white;">
+    <div class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-sm">
+          <h4 style="font-weight: bold;">“程式教育翻轉舊式學習型態”</h4>
+          <p>
+            這不是才藝班，是未來孩子能學以致用的知識科學，讓程堡陪你走在教育最前端</p>
+        </div>
+        <div class="col-sm">
+          <a href="#">
+            <img src="/img/wlogo.svg" alt="">
+          </a>
+        </div>
+        <div class="col-sm">
+          <h1 style="font-weight: bolder;">Contact us</h1>
+          <a href="https://www.facebook.com/thetopcastle">
+            <img class="social-icon fa-fb" src="/img/facebook-box-line.svg" alt="">
+          </a>
+          <a href="https://www.instagram.com/thetopcastle/">
+            <img class="social-icon fa-ig" src="/img/instagram-line.svg" alt="">
+          </a>
+          <a href="https://lin.ee/q24nvY6">
+            <img class="social-icon fa-line" src="/img/line-line.svg" alt="">
+          </a>
+          <p>
+            客服時間：週一至週五9:00~20:00 <br>
+            LINE 客服：@exq7552r <br>
+            客服信箱： thetopcastle@lfstw.org <br>
+            教室地址：台中市西屯區文華路100號（逢甲大學人社館B!）
+          </p>
+          <!-- <a href="">
+              <img class="social-icon fa-mail" src="/img/mail-line.svg" alt="">
+            </a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
